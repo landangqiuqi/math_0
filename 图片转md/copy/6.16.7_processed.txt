@@ -1,0 +1,9 @@
+```markdown
+We want to conclude that $g \in L^{q}(\mu)$ and that (2) holds; it is best to split the argument into two cases.
+
+**Case 1**: $p=1$. Here (5) shows that
+$$
+\left| \int_{E} g \, d\mu \right| \leq \| \Phi \| \cdot \| \chi_{E} \|_{1} = \| \Phi \| \cdot \mu(E)
+$$
+for every $E \in \mathfrak{M}$. By Theorem 1.40, $|g(x)| \leq \| \Phi \|$ a.e., so that $\| g \|_{\infty} \leq \| \Phi \|$.
+```

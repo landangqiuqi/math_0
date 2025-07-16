@@ -1,0 +1,27 @@
+```markdown
+### 6.16 Theorem 
+Suppose $1 \leq p < \infty$, $\mu$ is a $\sigma$-finite positive measure on $X$, and $\Phi$ is a bounded linear functional on $L^{p}(\mu)$. Then there exists a unique $g \in L^{q}(\mu)$, where $q$ is the exponent conjugate to $p$, such that
+$$
+\Phi(f) = \int_{X} fg \, d\mu \qquad (f \in L^{p}(\mu)). \tag{1}
+$$
+Moreover, if $\Phi$ and $g$ are related as in (1), we have
+$$
+\|\Phi\| = \|g\|_{q}. \tag{2}
+$$
+In other words, $L^{q}(\mu)$ is isometrically isomorphic to the dual space of $L^{p}(\mu)$ under the stated conditions.
+
+**Proof**  
+The uniqueness of $g$ is clear: if both $g$ and $g'$ satisfy (1), then the integral of $g - g'$ over any measurable set $E$ of finite measure is $0$ (as seen by taking $\chi_{E}$ for $f$), and the $\sigma$-finiteness of $\mu$ implies $g - g' = 0$ a.e.  
+
+Next, if (1) holds, Hölder's inequality implies
+$$
+\|\Phi\| \leq \|g\|_{q}. \tag{3}
+$$
+It remains to prove that such $g$ exists and that equality holds in (3). If $\|\Phi\| = 0$, (1) and (2) hold trivially with $g = 0$. Thus, assume $\|\Phi\| > 0$.  
+
+We first consider the case $\mu(X) < \infty$.  
+For any measurable set $E \subset X$, define
+$$
+\lambda(E) = \Phi(\chi_{E}).
+$$
+```

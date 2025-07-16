@@ -1,0 +1,8 @@
+```markdown
+**PROOF** The uniqueness of $g$ is clear, for if $g$ and $g^{\prime}$ satisfy (1), then the integral of $g-g^{\prime}$ over any measurable set $E$ of finite measure is 0 (as we see by taking $\chi_{E}$ for $f$), and the $\sigma$-finiteness of $\mu$ implies therefore that $g-g^{\prime}=0$ a.e.
+
+Next, if (1) holds, Holder's inequality implies that for any set $E$ of finite measure,
+$$
+\left\| \Phi\right\| \leq\left\| g \right\|_{q}. \tag{3}
+$$
+```

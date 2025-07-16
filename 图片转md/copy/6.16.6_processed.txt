@@ -1,0 +1,9 @@
+```markdown
+By linearity it follows that
+$$
+\Phi(f) = \int_X f g \, d\mu
+$$
+holds for every simple measurable $f$, and so also for every $f \in L^\infty(\mu)$ since every $f \in L^\infty(\mu)$ is a uniform limit of simple functions $f_i$. 
+
+Note that the uniform convergence of $f_i$ to $f$ implies $\|f_i - f\|_p \to 0$, hence $\Phi(f_i) \to \Phi(f)$ as $i \to \infty$.
+```

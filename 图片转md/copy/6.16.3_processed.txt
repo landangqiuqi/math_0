@@ -1,0 +1,10 @@
+```markdown
+So it remains to prove that $g$ exists and that equality holds in (3). 
+
+If $\|\Phi\|=0$, then (1) and (2) hold with $g=0$. So assume $\|\Phi\| > 0$. 
+
+We first consider the case $\mu(X) < \infty$. For any measurable set $E \subset X$, define
+$$
+\lambda(E) = \Phi(\chi_{E}).
+$$
+```

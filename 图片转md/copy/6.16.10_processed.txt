@@ -1,0 +1,7 @@
+```markdown
+is a linear isometry of $L^{p}(\tilde{\mu})$ onto $L^{p}(\mu)$, because $w(x) > 0$ for every $x \in X$. Hence
+$$
+\Psi(F) = \Phi(w^{1/p}F) \tag{9}
+$$
+defines a bounded linear functional $\Psi$ on $L^{p}(\tilde{\mu})$, with $\|\Psi\| = \|\Phi\|$.
+```

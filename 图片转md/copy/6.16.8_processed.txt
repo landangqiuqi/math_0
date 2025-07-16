@@ -1,0 +1,18 @@
+```markdown
+### Case 2: $1 < p < \infty$
+
+There exists a measurable function $\alpha$ with $|\alpha|=1$ such that $\alpha g=|g|$ [Proposition 1.9(e)]. Let $E_{n}=\{x\colon |g(x)| \leq n\}$, and define $f = \chi_{E_{n}} |g|^{q-1}\alpha$. Then:
+
+1. $|f|^{p} = |g|^{q}$ on $E_{n}$
+2. $f \in L^{\infty}(\mu)$
+3. From equation (6) we obtain:
+
+$$
+\int_{E_{n}} |g|^{q} d\mu = \int_{X} fg d\mu = \Phi(f) \leq \|\Phi\|\left\{\int_{E_{n}} |g|^{q}\right\}^{1/p}
+$$
+
+This leads to:
+
+$$
+\int_{X} \chi_{E_{n}} |g|^{q} d\mu \leq \|\Phi\|^{q} \qquad (n=1,2,3,\ldots) \tag{7}
+```

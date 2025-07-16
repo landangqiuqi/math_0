@@ -1,0 +1,9 @@
+```markdown
+Let $g \in L^{1}(\mu)$. For any measurable set $E \subset X$, then $\left\| \chi_{E} \right\|_{p}=0$. Thus $\lambda < \mu$, and the measurability ensures that for every $E$:
+
+$$
+\Phi(\chi_{E}) = \int_{E} g \, d\mu = \int_{X} \chi_{E} \cdot g \, d\mu.
+$$
+
+(5)
+```

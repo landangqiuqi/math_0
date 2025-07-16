@@ -1,0 +1,13 @@
+```markdown
+Since $D$ is linear, and since $\chi_{A \cup B} = \chi_{A} + \chi_{B}$ if $A$ and $B$ are disjoint, we see that $\lambda$ is additive. 
+
+To prove countable additivity, suppose $E$ is the union of countably many disjoint measurable sets $E_{i}$, put $A_{k} = E_{1} \cup \cdots \cup E_{k}$, and note that
+
+$$
+\| \chi_{E} - \chi_{A_{k}} \|_{p} = [ \mu( E - A_{k} ) ]^{1/p} \to 0 \qquad (k \to \infty); \tag{4}
+$$
+
+the continuity of $\Phi$ shows now that $\lambda( A_{k} ) \to \lambda( E )$. So $\lambda$ is a complex measure. [In (4) the assumption $p < \infty$ was used.] 
+
+It is clear that $\lambda( E ) = 0$ if $\mu( E ) = 0$.
+```

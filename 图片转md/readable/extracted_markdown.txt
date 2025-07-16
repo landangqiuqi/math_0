@@ -1,0 +1,135 @@
+===== 6.16.1.1_processed.txt =====
+### 6.16 Theorem 
+Suppose $1 \leq p < \infty$, $\mu$ is a $\sigma$-finite positive measure on $X$, and $\Phi$ is a bounded linear functional on $L^{p}(\mu)$. Then there exists a unique $g \in L^{q}(\mu)$, where $q$ is the exponent conjugate to $p$, such that
+$$
+\Phi(f) = \int_{X} fg \, d\mu \qquad (f \in L^{p}(\mu)). \tag{1}
+$$
+Moreover, if $\Phi$ and $g$ are related as in (1), we have
+$$
+\|\Phi\| = \|g\|_{q}. \tag{2}
+$$
+In other words, $L^{q}(\mu)$ is isometrically isomorphic to the dual space of $L^{p}(\mu)$ under the stated conditions.
+
+**Proof**  
+The uniqueness of $g$ is clear: if both $g$ and $g'$ satisfy (1), then the integral of $g - g'$ over any measurable set $E$ of finite measure is $0$ (as seen by taking $\chi_{E}$ for $f$), and the $\sigma$-finiteness of $\mu$ implies $g - g' = 0$ a.e.  
+
+Next, if (1) holds, Hölder's inequality implies
+$$
+\|\Phi\| \leq \|g\|_{q}. \tag{3}
+$$
+It remains to prove that such $g$ exists and that equality holds in (3). If $\|\Phi\| = 0$, (1) and (2) hold trivially with $g = 0$. Thus, assume $\|\Phi\| > 0$.  
+
+We first consider the case $\mu(X) < \infty$.  
+For any measurable set $E \subset X$, define
+$$
+\lambda(E) = \Phi(\chi_{E}).
+$$
+
+===== 6.16.10_processed.txt =====
+is a linear isometry of $L^{p}(\tilde{\mu})$ onto $L^{p}(\mu)$, because $w(x) > 0$ for every $x \in X$. Hence
+$$
+\Psi(F) = \Phi(w^{1/p}F) \tag{9}
+$$
+defines a bounded linear functional $\Psi$ on $L^{p}(\tilde{\mu})$, with $\|\Psi\| = \|\Phi\|$.
+
+===== 6.16.1_processed.txt =====
+**6.16 Theorem** Suppose $1 \leq p < \infty$, $\mu$ is a $\sigma$-finite positive measure on $X$, and $\Phi$ is a bounded linear functional on $L^{p}(\mu)$. Then there is a unique $g \in L^{q}(\mu)$, where $q$ is the exponent conjugate to $p$, such that
+
+$$
+\Phi(f) = \int_{X} fg \, d\mu \qquad (f \in L^{p}(\mu)). \tag{1}
+$$
+
+Moreover, if $\Phi$ and $g$ are related as in (1), we have
+
+$$
+\|\Phi\| = \|g\|_{q}. \tag{2}
+$$
+
+In other words, $L^{q}(\mu)$ is isometrically isomorphic to the dual space of $L^{p}(\mu)$, under the stated conditions.
+
+===== 6.16.2_processed.txt =====
+**PROOF** The uniqueness of $g$ is clear, for if $g$ and $g^{\prime}$ satisfy (1), then the integral of $g-g^{\prime}$ over any measurable set $E$ of finite measure is 0 (as we see by taking $\chi_{E}$ for $f$), and the $\sigma$-finiteness of $\mu$ implies therefore that $g-g^{\prime}=0$ a.e.
+
+Next, if (1) holds, Holder's inequality implies that for any set $E$ of finite measure,
+$$
+\left\| \Phi\right\| \leq\left\| g \right\|_{q}. \tag{3}
+$$
+
+===== 6.16.3_processed.txt =====
+So it remains to prove that $g$ exists and that equality holds in (3). 
+
+If $\|\Phi\|=0$, then (1) and (2) hold with $g=0$. So assume $\|\Phi\| > 0$. 
+
+We first consider the case $\mu(X) < \infty$. For any measurable set $E \subset X$, define
+$$
+\lambda(E) = \Phi(\chi_{E}).
+$$
+
+===== 6.16.4_processed.txt =====
+Since $D$ is linear, and since $\chi_{A \cup B} = \chi_{A} + \chi_{B}$ if $A$ and $B$ are disjoint, we see that $\lambda$ is additive. 
+
+To prove countable additivity, suppose $E$ is the union of countably many disjoint measurable sets $E_{i}$, put $A_{k} = E_{1} \cup \cdots \cup E_{k}$, and note that
+
+$$
+\| \chi_{E} - \chi_{A_{k}} \|_{p} = [ \mu( E - A_{k} ) ]^{1/p} \to 0 \qquad (k \to \infty); \tag{4}
+$$
+
+the continuity of $\Phi$ shows now that $\lambda( A_{k} ) \to \lambda( E )$. So $\lambda$ is a complex measure. [In (4) the assumption $p < \infty$ was used.] 
+
+It is clear that $\lambda( E ) = 0$ if $\mu( E ) = 0$.
+
+===== 6.16.5_processed.txt =====
+Let $g \in L^{1}(\mu)$. For any measurable set $E \subset X$, then $\left\| \chi_{E} \right\|_{p}=0$. Thus $\lambda < \mu$, and the measurability ensures that for every $E$:
+
+$$
+\Phi(\chi_{E}) = \int_{E} g \, d\mu = \int_{X} \chi_{E} \cdot g \, d\mu.
+$$
+
+(5)
+
+===== 6.16.6_processed.txt =====
+By linearity it follows that
+$$
+\Phi(f) = \int_X f g \, d\mu
+$$
+holds for every simple measurable $f$, and so also for every $f \in L^\infty(\mu)$ since every $f \in L^\infty(\mu)$ is a uniform limit of simple functions $f_i$. 
+
+Note that the uniform convergence of $f_i$ to $f$ implies $\|f_i - f\|_p \to 0$, hence $\Phi(f_i) \to \Phi(f)$ as $i \to \infty$.
+
+===== 6.16.7_processed.txt =====
+We want to conclude that $g \in L^{q}(\mu)$ and that (2) holds; it is best to split the argument into two cases.
+
+**Case 1**: $p=1$. Here (5) shows that
+$$
+\left| \int_{E} g \, d\mu \right| \leq \| \Phi \| \cdot \| \chi_{E} \|_{1} = \| \Phi \| \cdot \mu(E)
+$$
+for every $E \in \mathfrak{M}$. By Theorem 1.40, $|g(x)| \leq \| \Phi \|$ a.e., so that $\| g \|_{\infty} \leq \| \Phi \|$.
+
+===== 6.16.8_processed.txt =====
+### Case 2: $1 < p < \infty$
+
+There exists a measurable function $\alpha$ with $|\alpha|=1$ such that $\alpha g=|g|$ [Proposition 1.9(e)]. Let $E_{n}=\{x\colon |g(x)| \leq n\}$, and define $f = \chi_{E_{n}} |g|^{q-1}\alpha$. Then:
+
+1. $|f|^{p} = |g|^{q}$ on $E_{n}$
+2. $f \in L^{\infty}(\mu)$
+3. From equation (6) we obtain:
+
+$$
+\int_{E_{n}} |g|^{q} d\mu = \int_{X} fg d\mu = \Phi(f) \leq \|\Phi\|\left\{\int_{E_{n}} |g|^{q}\right\}^{1/p}
+$$
+
+This leads to:
+
+$$
+\int_{X} \chi_{E_{n}} |g|^{q} d\mu \leq \|\Phi\|^{q} \qquad (n=1,2,3,\ldots) \tag{7}
+
+===== 6.16.9_processed.txt =====
+We have $\mu(X) = \infty$ but $\mu$ is $\sigma$-finite. Choose $w \in L^{1}(\mu)$ as in Lemma 6.9. Then $d\tilde{\mu} = w \, d\mu$ defines a finite measure on $\mathfrak{M}$, and
+
+$$
+F \to w^{1/p}F \tag{8}
+$$
+
+Thus (2) holds and $g \in L^{q}(\mu)$. It follows that both sides of (6) are continuous functions on $L^{p}(\mu)$. They coincide on the dense subset $L^{\infty}(\mu)$ of $L^{p}(\mu)$; hence they coincide on all of $L^{p}(\mu)$, and this completes the proof if $\mu(X) < \infty$.
+
+Moreover, we have $\left\| g \right\|_{q} \leq \left\| \Phi \right\|_{q}$ in $L^{p}(\mu)$.

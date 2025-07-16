@@ -1,0 +1,11 @@
+```markdown
+We have $\mu(X) = \infty$ but $\mu$ is $\sigma$-finite. Choose $w \in L^{1}(\mu)$ as in Lemma 6.9. Then $d\tilde{\mu} = w \, d\mu$ defines a finite measure on $\mathfrak{M}$, and
+
+$$
+F \to w^{1/p}F \tag{8}
+$$
+
+Thus (2) holds and $g \in L^{q}(\mu)$. It follows that both sides of (6) are continuous functions on $L^{p}(\mu)$. They coincide on the dense subset $L^{\infty}(\mu)$ of $L^{p}(\mu)$; hence they coincide on all of $L^{p}(\mu)$, and this completes the proof if $\mu(X) < \infty$.
+
+Moreover, we have $\left\| g \right\|_{q} \leq \left\| \Phi \right\|_{q}$ in $L^{p}(\mu)$.
+```
