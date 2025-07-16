@@ -1,1 +1,4 @@
+git add .
+git commit -m ""
+
 git remote add origin git@github.com:landangqiuqi/math_0.git
